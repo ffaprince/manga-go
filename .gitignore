@@ -1,0 +1,10 @@
+.htaccess
+Thumbs.db
+*.swp
+imgcache
+cache
+htmlcache
+config.php
+dbadmin
+phpmyadmin
+.svn

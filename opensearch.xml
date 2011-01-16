@@ -1,0 +1,13 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/"> 
+<ShortName>MangaGo</ShortName> 
+<Description>Search Manga at MangaGo</Description> 
+<Tags>manga</Tags> 
+<InputEncoding>UTF-8</InputEncoding> 
+<Image width="16" height="16" type="image/x-icon">http://www.manga-go.com/favicon.ico</Image> 
+<Url type="text/html" method="GET" template="http://www.manga-go.com/r/search/search.php?name={searchTerms}"/> 
+<Url type="application/opensearchdescription+xml" rel="self" template="http://www.manga-go.com/opensearch.xml" /> 
+<moz:SearchForm>http://www.manga-go.com/r/l_directory/directory/</moz:SearchForm> 
+<Contact>ffaprince@gmail.com</Contact> 
+<AdultContent>false</AdultContent> 
+</OpenSearchDescription> 

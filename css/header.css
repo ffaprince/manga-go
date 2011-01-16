@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+body{font:12px/150% Verdana,Arial,Helvetica,sans-serif};
+#header a:link{text-decoration:none;}
+#header li{display:inline;float: left;}
+#header img{border:0px;}
+#header .clear{clear:both;}
+
+#header_wrapper{
+	background:url("/images/header_bg.jpg") repeat-x scroll 0 0 transparent;
+	height: 153px;
+	padding-top:27px
+}
+#header {
+	margin: 0 auto;
+    width: 950px;
+}
+#header div{
+	position:relative;
+}
+#logo,#hotkeyword{
+	float:left;
+	position:relative;
+}
+#logo{
+	position:relative;
+	left:5px;
+	top:-11px;
+}
+#search fieldset{
+	border-style:none;
+	position:relative;
+	top:25px;
+	left:-70px;
+}
+#search button{
+	background: url("/images/search.png") no-repeat scroll left top transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 21px;
+    left: -5px;
+    position: relative;
+    vertical-align: middle;
+    width: 34px;
+}
+#hotkeyword{
+	position:relative;
+	top:28px;
+	left:-45px;
+	font-size:12px;
+}
+#hotkeyword li{
+	color:white;
+	font-weight:bold;
+	padding-left:2px;
+}
+#hotkeyword a{
+	color:white;
+	font-weight:normal;
+}
+#menu{
+	z-index:6;
+	width:950px;
+	height:55px;
+}
+#menu #h{
+	float:left;
+	height:54px;
+	width:144px;
+}
+#menu #m{
+	float:left;
+	height:42px;
+	width:145px;
+	
+}
+#menu #c{
+	float:left;
+	height:42px;
+	width:143px;
+}
+#menu #nav_genre{
+	float:left;
+	height:42px;
+	width:145px;
+}
+#menu #r {
+    background: url("/images/nav_right.png") no-repeat scroll left top transparent;
+    float: left;
+    height: 39px;
+    width: 373px;
+}
+#menu #r a span {
+    height: 14px;
+	width:40px;
+}
+#menu #r .bm{
+	font-weight:bold;
+	text-align:right;
+	height:24px;
+	padding-top:12px;
+}
+#menu #r .user{
+	float: left;
+    position: relative;
+    width: 230px;
+	padding-top:12px;
+    text-align: right;
+}
+
+#menu #r .bm{
+	float:right;
+}
+
+#menu #r #nav_bookmark{	
+	color:red;
+}
+#nave{
+	background:url("/images/nav_bg.png") no-repeat scroll center top transparent;
+    float: left;
+    height: 61px;
+    padding: 0;
+    position: relative;
+    top: -16px;
+    width: 950px;
+	z-index:1;
+}
+#hotbook{
+	 float: left;
+    left: 153px;
+    position: relative;
+    top: 8px;
+    width: 100%;
+}
+#hotbook a{
+	color: #8B2F20;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 14px;
+    font-style: italic;
+    padding: 0 5px;
+}
+#hotbook a:hover{
+	color: #8B486D;
+}
+#hotgenre{
+	float: left;
+    left: 55px;
+    position: relative;
+    top: 17px;
+    width: 100%;
+}
+#hotgenre li{
+	color:#ffd99b;
+	padding:0 5px;
+	font-weight:bold;
+	font-size:14px;
+}
+#hotgenre a{
+	color:#ffd99b;
+	font-weight:normal;
+	font-size:14px;
+}
+#menu a{
+    height: 100%;
+    position: relative;
+}
+#menu #h a,#menu #m a,#menu #c a,#menu #nav_genre a{
+	display: block;
+}
+#menu a span{
+	width:100%;
+	height:100%;
+	display: block;
+	cursor:pointer;
+}
+
+#menu #h span{
+	background:url("/images/h.png") no-repeat scroll center top transparent;
+}
+#menu #h a:hover span,#menu #h a.selected span{
+	background:url("/images/h-3.png") no-repeat scroll center top transparent
+}
+
+#menu #m span{
+	background:url("/images/m.png") no-repeat scroll center top transparent
+}
+#menu #m a:hover span,#menu #m a.selected span{
+	background:url("/images/m-3.png") no-repeat scroll center top transparent
+}
+#menu #c span{
+	background:url("/images/c.png") no-repeat scroll center top transparent
+}
+#menu #c a:hover span,#menu #c a.selected span{
+	background:url("/images/c-3.png") no-repeat scroll center top transparent
+}
+#menu #nav_genre span{
+	background:url("/images/a.png") no-repeat scroll center top transparent
+}
+#menu #nav_genre a:hover span,#menu #nav_genre a.selected span{
+	background:url("/images/a-3.png") no-repeat scroll center top transparent
+}
+#menu #r #nav_bookmark{
+	 float: right;
+    height: 24px;
+    margin-left: 39px;
+    padding-top: 1px;
+    right: 40px;
+    width: 85px;
+}
+#search {
+	float: right;
+    left: 34px;
+    position: relative;
+    top: -24px;
+}
+#lookupwords {
+	background: none repeat scroll 0 0 #000000;
+    border: 1px solid #CCCCCC;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 15px;
+    opacity: 0.8;
+	filter: alpha(opacity = 80);
+    padding: 2px 0;
+    vertical-align: middle;
+    width: 200px;
+	color: #fff;
+}

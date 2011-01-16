@@ -1,0 +1,136 @@
+.pagination {
+	height:24px;
+	background:url(/images/pagination.png) no-repeat 0 -30px;
+	margin: 0 10px 0 0;
+	width:640px;
+	float:right;
+}
+.paginationTop {
+	margin:0 10px 30px 0;
+	background-position:0 0;
+	width:100%;
+}
+.pagination div {
+	height:24px;
+	background:url(/images/pagination.png) no-repeat right -30px;
+	margin:0 -10px 0 10px;
+	padding:0 20px 0 10px;
+}
+.paginationTop div {
+	background-position:right 0;
+}
+.pagination .info {
+	display:block;
+	float:left;
+	color:#808080;
+	height:22px;
+	line-height:22px;
+	padding:0 15px 0 25px;
+	font-size:11px;
+	background:url(/images/pagination.png) no-repeat 0 -61px;
+}
+
+.pagination li {
+	float:left;
+	margin:1px 1px 1px 0;
+}
+.pagination li.current {
+	float:left;
+	margin:-2px 1px -2px 0;
+	height:26px;
+}
+.pagination li.prev {
+	margin-right:10px;
+}
+.pagination li.prev a span {
+	background:url(/images/pagination.png) no-repeat 0 -100px;
+	padding:0 7px 0 20px;
+}
+.pagination li.prev a:hover span {
+	background-position:0 -125px;
+}
+.pagination li.next {
+	margin-left:10px;
+}
+.pagination li.next a span {
+	background:url(/images/pagination.png) no-repeat right -100px;
+	padding:0 20px 0 7px;
+}
+.pagination li.next a:hover span {
+	background-position:right -125px;
+}
+.pagination li.gap span {
+	line-height:22px;
+	display:block;
+	float:left;
+	padding:0 5px;
+	color:#808080;
+}
+.pagination a {
+	display:block;
+	float:left;
+	height:20px;
+	border:1px solid #9a9a9a;
+	background:#fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+.pagination a span {
+	display:block;
+	margin:1px;
+	height:18px;
+	color:#5c7a99;
+	font-size:11px;
+	line-height:18px;
+	padding:0 7px;
+	cursor:pointer;
+	background:url(/images/pagination.png) no-repeat -15px -100px;
+}
+.pagination a:hover {
+	text-decoration:none;
+	border-color:#808080;
+}
+.pagination a:hover span {
+	background-position:-15px -125px;
+}
+.pagination li.current a {
+	height:26px;
+}
+.pagination li.current a span {
+	height:24px;
+	line-height:24px;
+	background:url(/images/pagination.png) no-repeat 0 -150px;
+	padding:0 9px;
+	font-weight:bold;
+}
+.pagination li.current a:hover span {
+	background-position:0 -150px;
+}
+
+.pagination .newer {
+	display:block;
+	margin-top:1px;
+}
+.pagination .newer span {
+	background:url(/images/pagination.png) no-repeat 0 -100px;
+	padding-left:20px;
+}
+.pagination a.newer:hover span {
+	background-position:0 -125px;
+}
+.pagination .older {
+	display:block;
+	float:right;
+	margin-top:1px;
+}
+.pagination .older span {
+	background:url(/images/pagination.png) no-repeat right -100px;
+	padding-right:20px;
+}
+.pagination a.older:hover span {
+	background-position:right -125px;
+}
+.pagination .gap{
+	padding-top:0px;
+}
